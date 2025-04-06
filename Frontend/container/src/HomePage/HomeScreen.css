@@ -1,0 +1,95 @@
+.homescreenpage {
+    background-image: url('../image/section-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homescreenheading {
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.homescreenbutton {
+    background-color: rgb(87, 188, 190);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.homescreeninput {
+    border: 2px solid rgb(87, 188, 190);
+    width: 80%;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 5rem;
+}
+
+.homescreenimgbotton {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.homescreenContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homescreenlocationrecommodation {
+    font-weight: 700;
+    margin-right: 0.1rem;
+    margin-top: 0.8rem;
+}
+
+.btnlocation {
+    background-color: rgb(87, 188, 190);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    font-size: 10px;
+    margin: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .homescreenpageinnerdiv{
+        padding: 1rem;
+    }
+    .homescreenpage {
+        padding: 1rem;
+    }
+
+    .homescreenheading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .homescreeninput {
+        margin-top: 1rem;
+    }
+
+    .homescreenbutton {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .homescreenlocationrecommodation {
+        margin-top: 0.5rem;
+    }
+
+    .btnlocation {
+        font-size: 0.8rem;
+        height: 1.5rem;
+    }
+}

@@ -1,0 +1,77 @@
+.Homesectionmaincontent {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homesectionsteps {
+    color: rgba(204, 204, 56, 0.817);
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+}
+
+.homesectionadventutres p {
+    color: rgba(87, 188, 190);
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.homesectionsolumnmain {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    box-shadow: 0px 0px 5px 1px #dadada;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #e2d8d8;
+    text-align: center;
+    padding: 1rem; 
+    color: rgba(87, 188, 190);
+}
+
+.box p {
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+
+.homesectionsolumnmainupper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+    .homesectionsolumnmain{
+        flex-wrap: wrap;
+    }
+    .homesectionadventutres p {
+        font-size: 24px;    
+    }
+
+    .homesectionsolumnmain {
+        /* width: 90%; */
+        box-shadow: none;
+    }
+
+    .box {
+        padding: 0.5rem;
+    }
+}
